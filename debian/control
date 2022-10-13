@@ -1,0 +1,29 @@
+Source: node-is-binary-path
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13)
+ , nodejs
+ , node-binary-extensions (>= 2.0.0) <!nocheck>
+ , node-tape <!nocheck>
+ , pkg-js-tools (>= 0.9.12~)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-binary-path
+Vcs-Git: https://salsa.debian.org/js-team/node-is-binary-path.git
+Homepage: https://github.com/sindresorhus/is-binary-path#readme
+
+Package: node-is-binary-path
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-binary-extensions (>= 2.0.0)
+Description: check if a filepath is a binary file
+ This library checks if a filepath is a binary file by checking known binary
+ file extensions list.
+ .
+ Node.js is an event-based server-side JavaScript engine.

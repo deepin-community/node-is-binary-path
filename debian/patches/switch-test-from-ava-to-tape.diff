@@ -1,0 +1,21 @@
+Description: switch test from ava to test
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2019-09-25
+
+--- a/test.js
++++ b/test.js
+@@ -1,5 +1,5 @@
+-import test from 'ava';
+-import isBinaryPath from '.';
++const test =require('tape');
++const isBinaryPath =require('.');
+ 
+ test('main', t => {
+ 	t.true(isBinaryPath('unicorn.png'));
+@@ -7,4 +7,5 @@
+ 	t.true(isBinaryPath('unicorn.ZIP'));
+ 	t.false(isBinaryPath('unicornzip'));
+ 	t.false(isBinaryPath('unicorn.txt'));
++	t.end();
+ });

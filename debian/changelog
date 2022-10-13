@@ -1,0 +1,50 @@
+node-is-binary-path (2.1.0-3.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * source only upload to enable migration
+
+ -- Paul Gevers <elbrus@debian.org>  Mon, 01 Nov 2021 21:17:30 +0100
+
+node-is-binary-path (2.1.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 11:41:05 +0100
+
+node-is-binary-path (2.1.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 23:38:46 +0100
+
+node-is-binary-path (2.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 2.1.0
+  * Require node-binary-extensions 2.0.0
+  * Switch minimal test and install to pkg-js-tools
+  * Switch upstream test from ava to tape and enable it
+  * Update VCS fields to salsa
+  * Add "Rules-Requires-Root: no"
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 25 Sep 2019 21:43:41 +0200
+
+node-is-binary-path (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #861787)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 04 May 2017 10:22:11 +0530
