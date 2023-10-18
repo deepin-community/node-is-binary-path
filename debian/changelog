@@ -1,9 +1,21 @@
-node-is-binary-path (2.1.0-3.1) unstable; urgency=medium
+node-is-binary-path (2.1.0-5) unstable; urgency=medium
 
-  * Non-maintainer upload.
-  * source only upload to enable migration
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-binary-path: Add Multi-Arch: foreign.
 
- -- Paul Gevers <elbrus@debian.org>  Mon, 01 Nov 2021 21:17:30 +0100
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 10:12:03 +0000
+
+node-is-binary-path (2.1.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 03 Jan 2022 20:21:55 +0100
 
 node-is-binary-path (2.1.0-3) unstable; urgency=medium
 
